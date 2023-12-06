@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 10px;
+    /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
+    background-image: url('https://images.unsplash.com/photo-1595665593673-bf1ad72905c0?q=80&w=1628&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+} */
+
+.container {
+    width: 540px;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    height: 750px;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container .title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.content form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% - 20px);
+    outline: none;
+}
+
+form .input-box span.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+span.description {
+    margin-bottom: 5px;
+    font-weight: 500;
+
+}
+
+#mySelect {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+
+.input-box {
+    border-radius: 7px;
+    outline: none;
+}
+
+.input-box:focus {
+    border-color: #9b59b6;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color: #9b59b6;
+}
+
+form .Color-details .Color-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button {
+    margin: 30px 0
+}
+
+button {
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #249A00;
+}
+
+
+
+.radio-group {
+    display: flex;
+    gap: 30px;
+}
+
+.tacbox {
+    margin-top: 10px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 100px;
+    gap: 95px;
+
+}
+
+.price-quantity {
+    display: flex;
+    gap: 15px;
+}
+
+.radio {
+    position: absolute;
+    bottom: 190px;
+    left: 247px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 90px;
+}
+
+.emty {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 742px;
+}
+
+.emty h1 {
+    color: white;
+}
